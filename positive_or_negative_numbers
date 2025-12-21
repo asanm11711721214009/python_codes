@@ -1,0 +1,30 @@
+# solve the problems .so use these method
+# 1.using Brute Force method
+# 2.using nested_if statement
+# 3.using ternary operator
+
+#1.
+num=15
+if num>0:
+    print("positive")
+elif num<0:
+    print("negative")
+else:
+    print("zero")
+
+#3.
+print("positive" if num>0 else "negative" )
+
+#2.
+if num>0:
+    if num==0:
+        print("Zero")
+    else:
+        print("positive")
+else:
+    print("negative")
+
+
+
+
+
